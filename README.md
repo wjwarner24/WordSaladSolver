@@ -33,8 +33,8 @@ The program leverages word encodings to identify words on the board that align w
 ### Usage
 
 1. Open the `solver.py` file in a text editor.  
-2. Update the `grid` variable at the top of the file with your board configuration, using a 4x4 array:  
-   `grid = [ ['T', 'H', 'I', 'S'], ['I', 'S', 'A', 'N'], ['E', 'X', 'A', 'M'], ['P', 'L', 'E', 'S'] ]`  
+2. Update the `board` variable at the top of the file with your board configuration, using a 4x4 array:  
+   `board = [ ['t', 'h', 'i', 's'], ['i', 's', 'a', 'n'], ['e', 'x', 'a', 'm'], ['p', 'l', 'e', ' '] ]`  
 3. Specify the theme for the puzzle in the `description` variable:  
    `description = "examples"`  
 4. Run the program:  
@@ -44,7 +44,7 @@ The program leverages word encodings to identify words on the board that align w
 
 ### Input
 
-`grid = [ ['C', 'A', 'T', 'S'], ['D', 'O', 'G', 'S'], ['B', 'I', 'R', 'D'], ['F', 'I', 'S', 'H'] ]`  
+`grid = [ ['c', 'a', 't', 's'], ['d', 'o', 'g', 's'], ['b', 'i', 'r', 'd'], ['f', 'i', 's', 'h'] ]`  
 `theme = "animals"`  
 
 ### Output
