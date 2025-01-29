@@ -1,12 +1,14 @@
 # WordSaladSolver
 
-**WordSaladSolver** is a Python program designed to solve the word game *Word Salad*. This game involves connecting letters on a 4x4 board to form words. The solver uses word encodings to identify possible words based on a provided theme and matches them as closely as possible to the board.
+**WordSaladSolver** is a Python program designed to solve the word game *Word Salad*. This game involves connecting letters on a 4x4 board to form words. The solver uses word encodings to identify possible words based on a provided theme and matches them as closely as possible to the board. 
+**The web version of this game can be found here** https://wordsalad.online/
 
 ## How It Works
 
 1. **Input the Board**: Enter your 4x4 board by modifying the `board` variable at the top of the program. Each letter represents a cell in the board.  
-2. **Specify the Theme**: Input the puzzle's theme to guide the solver in finding relevant words.  
-3. **Run the Solver**: The program uses the board and theme to find and suggest words that fit as closely as possible.  
+2. **Specify the Theme**: Input the puzzle's theme to guide the solver in finding relevant words.
+3. **Specify Word Lengths**: This helps the program run more efficiently, only processing words that fit the desired word lengths.
+4. **Run the Solver**: The program uses the board and theme to find and suggest words that fit as closely as possible.  
 
 The program leverages word encodings to identify words on the board that align with the theme, helping you solve the puzzle efficiently.
 
