@@ -28,7 +28,7 @@ The program leverages word encodings to identify words on the board that align w
    `git clone https://github.com/wjwarner24/WordSaladSolver.git`  
    `cd WordSaladSolver`  
 2. Install required packages:  
-   `pip install sentence_transformers` 
+   `pip install sentence-transformers` 
 
 ### Usage
 
