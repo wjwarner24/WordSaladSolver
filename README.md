@@ -34,13 +34,13 @@ The program leverages word encodings and heuristics to identify words on the boa
 
 ### Usage
 
-1. Open the `WordSaladSolver.py` file in a text editor.  
+1. Open the `solver.py` file in a text editor.  
 2. Update the `grid` variable at the top of the file with your board configuration, using a 4x4 array:  
    `grid = [ ['T', 'H', 'I', 'S'], ['I', 'S', 'A', 'N'], ['E', 'X', 'A', 'M'], ['P', 'L', 'E', 'S'] ]`  
 3. Specify the theme for the puzzle in the `theme` variable:  
    `theme = "examples"`  
 4. Run the program:  
-   `python WordSaladSolver.py`  
+   `python solver.py`  
 
 ## Example
 
